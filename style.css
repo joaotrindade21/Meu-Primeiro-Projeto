@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+.lado-esquerdo{
+    display: inline-block;
+    width: 30%;
+    height: 100vh;
+    background: #000000;
+}
+
+.lado-direito{
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    
+}
+
+#texto1{
+    color: #FFF;
+text-align: center;
+font-size: 10px;
+font-weight: 400;
+
+margin-bottom: 85px;
+}
+
+h2{
+    color: #FFF;
+font-size: 24px;
+font-weight: 900;
+margin: 0 auto 1px;
+
+width: 225px;
+height: 40px;
+
+}
+
+#texto2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+
+width: 225px;
+height: 45px;
+
+margin: 30px auto 45px;
+}
+
+#botao-login{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+
+width: 190px;
+height: 65px;
+
+border-radius: 30px;
+border: 2px solid #FFF;
+background: rgba(217, 217, 217, 0.00);
+
+cursor: pointer;
+
+display: block;
+margin: 0 auto 40px;
+}
+
+a{
+    display: block;
+color: #FFF;
+text-align: center;
+font-size: 10px;
+font-weight: 400;
+cursor: pointer;
+}
+
+img{
+    margin: 85px auto 10px;
+    display: block;
+}
+
+h1{
+    color: #000;
+text-align: center;
+font-size: 32px;
+font-weight: 700;
+
+margin-top: 70px;
+}
+
+#texto3{
+    color: #A5A5A5;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+input::placeholder{
+    color: #A5A5A5;
+    font-size: 20px;
+    
+}
+.dados{
+
+    width: 540px;
+    height: 60px;
+    margin: 5px 0;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: #F3EBEB;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.botao-cadastrar{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #000;
+
+    width: 250px;
+    height: 55px;
+
+    cursor: pointer;
+    display: block;
+    margin: 75px auto 0;
+    
+}
