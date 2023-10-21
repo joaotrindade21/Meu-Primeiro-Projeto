@@ -1,0 +1,1 @@
+console.log("Ola! Estou iniciano no JavaScript.")

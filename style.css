@@ -148,3 +148,30 @@ input::placeholder{
     margin: 75px auto 0;
     
 }
+
+@media screen and (max-width: 768px){
+    
+    main{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .lado-direito{
+        display: none;
+    }
+
+    .lado-esquerdo{
+        width: 100vw;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #texto2{
+        color: #FFF;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+}
